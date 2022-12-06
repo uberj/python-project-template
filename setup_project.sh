@@ -13,8 +13,8 @@ PYTHON_VERSION=3.10
 # https://stackoverflow.com/questions/61915607/commandnotfounderror-your-shell-has-not-been-properly-configured-to-use-conda
 source ~/miniconda/etc/profile.d/conda.sh
 
-# start showing the commands we are running. fail on error.
-set -x -e
+# fail on error.
+set -e
 
 # Ensure a conda install
 conda info
